@@ -7,10 +7,10 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>JCore-Common</artifactId>
+    <artifactId>jcore-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>JCore-Common</name>
+    <name>jcore-common</name>
     <url>http://maven.apache.org</url>
 
     <properties>
