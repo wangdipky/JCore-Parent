@@ -7,24 +7,17 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>jcore-common</artifactId>
+    <artifactId>jcore-support</artifactId>
     <packaging>jar</packaging>
 
-    <name>jcore-common</name>
+    <name>jcore-support</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.security.cryto.version>6.5.0</spring.security.cryto.version>
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-crypto</artifactId>
-            <version>${spring.security.cryto.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
